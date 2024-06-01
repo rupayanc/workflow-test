@@ -3,7 +3,11 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - name: workflow.json
-    path: workflow.json
-  - name: workflow.json
-    path: invert_mask/workflow.json
+  - id: 0z1o316wrmqn
+    name: workflow.json
+    description: ''
+    file: workflow.json
+  - id: 7p16zywsd0l
+    name: workflow.json
+    description: ''
+    file: invert_mask/workflow.json
