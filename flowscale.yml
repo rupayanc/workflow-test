@@ -3,10 +3,6 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: 42z17ifejwd
-    name: advanced_conf.json
-    description: ''
-    file: advanced_conf.json
   - id: n1xx442u6ui
     name: workflow.json
     description: ''
