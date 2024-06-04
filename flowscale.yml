@@ -14,18 +14,6 @@ workflows:
         demo_type: text
         category: output
         randomize: true
-      - path: 3.inputs.cfg
-        parameter_name: cfg
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-      - path: 3.inputs.denoise
-        parameter_name: denoise
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
   - id: kdzsc3e28b
     name: workflow.json
     description: ''
