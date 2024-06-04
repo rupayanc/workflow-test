@@ -7,7 +7,13 @@ workflows:
     name: workflow.json
     description: ''
     file: workflow.json
-    inputs: []
+    inputs:
+      - path: 3.inputs.cfg
+        parameter_name: cfg
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
   - id: z39g6xfboik
     name: workflow.json
     description: ''
