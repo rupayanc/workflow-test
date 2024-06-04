@@ -3,11 +3,15 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: q0b35n8qvmc
+  - id: 42z17ifejwd
+    name: advanced_conf.json
+    description: ''
+    file: advanced_conf.json
+  - id: n1xx442u6ui
     name: workflow.json
     description: ''
     file: workflow.json
-  - id: tmuj2v7k4k
+  - id: kdzsc3e28b
     name: workflow.json
     description: ''
     file: invert_mask/workflow.json
