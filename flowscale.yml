@@ -7,25 +7,7 @@ workflows:
     name: workflow.json
     description: ''
     file: workflow.json
-    inputs:
-      - path: 3.inputs.cfg
-        parameter_name: cfg
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-      - path: 3.inputs.scheduler
-        parameter_name: scheduler
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 3.inputs.sampler_name
-        parameter_name: sampler_name
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
+    inputs: []
   - id: kdzsc3e28b
     name: workflow.json
     description: ''
