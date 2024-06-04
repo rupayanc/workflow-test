@@ -7,37 +7,7 @@ workflows:
     name: workflow.json
     description: ''
     file: workflow.json
-    inputs:
-      - path: 7.inputs.text
-        parameter_name: text
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 4.inputs.ckpt_name
-        parameter_name: ckpt_name
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-      - path: 3.inputs.sampler_name
-        parameter_name: sampler_name
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 3.inputs.denoise
-        parameter_name: denoise
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
+    inputs: []
   - id: z39g6xfboik
     name: workflow.json
     description: ''
