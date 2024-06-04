@@ -1,4 +1,12 @@
 {
-  "packages": ["websocket-client"],
-  "apt_dependencies": ["libopencv-dev", "libgl1-mesa-glx", "libglib2.0-0"]
+  "packages": [
+    "websocket-client",
+    "numba"
+  ],
+  "apt_dependencies": [
+    "libopencv-dev",
+    "libgl1-mesa-glx",
+    "libglib2.0-0",
+    "ffmpeg"
+  ]
 }
