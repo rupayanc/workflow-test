@@ -3,11 +3,121 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: b9506s5w0yk
+  - id: u2lrcs1h4eg
     name: workflow.json
     description: ''
     file: workflow.json
-  - id: qe62ua89zti
+    inputs:
+      - path: 9.inputs.filename_prefix
+      - {}
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+  - id: z39g6xfboik
     name: workflow.json
     description: ''
     file: invert_mask/workflow.json
+    inputs:
+      - path: 9.inputs.filename_prefix
+      - {}
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 7.inputs.text
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
+      - path: 9.inputs.filename_prefix
