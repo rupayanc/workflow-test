@@ -3,31 +3,11 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: u2lrcs1h4eg
+  - id: yufytnl6b0m
     name: workflow.json
     description: ''
     file: workflow.json
-    inputs:
-      - path: 3.inputs.cfg
-        parameter_name: cfg
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-  - id: z39g6xfboik
+  - id: vfnjmtm9jnf
     name: workflow.json
     description: ''
     file: invert_mask/workflow.json
-    inputs:
-      - path: 3.inputs.steps
-        parameter_name: steps
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
-      - path: 3.inputs.denoise
-        parameter_name: denoise
-        type: integer
-        demo_type: number
-        category: input
-        randomize: false
