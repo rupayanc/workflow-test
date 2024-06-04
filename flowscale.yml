@@ -3,53 +3,11 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: v76oq2u1xqm
+  - id: b9506s5w0yk
     name: workflow.json
     description: ''
     file: workflow.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - {}
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-  - id: 7shtrjvopf8
+  - id: qe62ua89zti
     name: workflow.json
     description: ''
     file: invert_mask/workflow.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - {}
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
-      - path: 3.inputs.seed
