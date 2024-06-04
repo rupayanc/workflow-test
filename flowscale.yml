@@ -43,27 +43,15 @@ workflows:
     description: ''
     file: invert_mask/workflow.json
     inputs:
-      - path: 7.inputs.text
-        parameter_name: text
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 4.inputs.ckpt_name
-        parameter_name: ckpt_name
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
       - path: 3.inputs.steps
         parameter_name: steps
         type: integer
         demo_type: number
         category: input
         randomize: false
-      - path: 1.inputs.image
-        parameter_name: image
-        type: string
-        demo_type: image
+      - path: 3.inputs.denoise
+        parameter_name: denoise
+        type: integer
+        demo_type: number
         category: input
         randomize: false
