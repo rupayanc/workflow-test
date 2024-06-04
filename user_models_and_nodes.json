@@ -7,6 +7,11 @@
   {
     "url": "https://huggingface.co/lraza8632/LoRAs/resolve/f1bc3bad5c31d6f54c30791a001623b511c69298/Perfect%20Hands%20v2.safetensors",
     "path": "models/loras",
-    "fetch_type":"download"
+    "fetch_type": "download"
+  },
+  {
+    "url": "https://huggingface.co/lraza8632/LoRAs/resolve/f1bc3bad5c31d6f54c30791a001623b511c69298/Perfect%20Hands%20v2.safetensors",
+    "path": "models/loras",
+    "fetch_type": "download"
   }
 ]
