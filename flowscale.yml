@@ -3,7 +3,7 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models_and_nodes: user_models_and_nodes.json
 workflows:
-  - id: c3yorerwoaw
+  - id: v76oq2u1xqm
     name: workflow.json
     description: ''
     file: workflow.json
@@ -27,7 +27,8 @@ workflows:
       - path: 3.inputs.seed
       - path: 3.inputs.seed
       - path: 3.inputs.seed
-  - id: 4xotu10f3pm
+      - path: 3.inputs.seed
+  - id: 7shtrjvopf8
     name: workflow.json
     description: ''
     file: invert_mask/workflow.json
@@ -48,6 +49,7 @@ workflows:
       - path: 9.inputs.filename_prefix
       - path: 9.inputs.filename_prefix
       - path: 9.inputs.filename_prefix
+      - path: 3.inputs.seed
       - path: 3.inputs.seed
       - path: 3.inputs.seed
       - path: 3.inputs.seed
