@@ -36,3 +36,16 @@ workflows:
     name: workflow.json
     description: ''
     file: invert_mask/workflow.json
+    inputs:
+      - path: 1.inputs.image
+        parameter_name: image
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 6.inputs.channel
+        parameter_name: channel
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
