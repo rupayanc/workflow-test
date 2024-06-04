@@ -8,60 +8,36 @@ workflows:
     description: ''
     file: workflow.json
     inputs:
-      - path: 9.inputs.filename_prefix
-      - {}
       - path: 7.inputs.text
-      - path: 7.inputs.text
-      - path: 7.inputs.text
-      - path: 7.inputs.text
-      - path: 7.inputs.text
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
-      - path: 9.inputs.filename_prefix
+        parameter_name: text
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 4.inputs.ckpt_name
+        parameter_name: ckpt_name
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 3.inputs.steps
+        parameter_name: steps
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 3.inputs.sampler_name
+        parameter_name: sampler_name
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 3.inputs.denoise
+        parameter_name: denoise
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
   - id: z39g6xfboik
     name: workflow.json
     description: ''
