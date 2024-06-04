@@ -11,6 +11,31 @@ workflows:
     name: workflow.json
     description: ''
     file: workflow.json
+    inputs:
+      - path: 4.inputs.ckpt_name
+        parameter_name: ckpt_name
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 7.inputs.text
+        parameter_name: text
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 3.inputs.steps
+        parameter_name: steps
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 6.inputs.text
+        parameter_name: text
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
   - id: kdzsc3e28b
     name: workflow.json
     description: ''
