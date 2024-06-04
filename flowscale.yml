@@ -7,7 +7,169 @@ workflows:
     name: workflow.json
     description: ''
     file: workflow.json
-    inputs: []
+    inputs:
+      - path: 3.inputs.seed
+        parameter_name: seed
+        type: integer
+        demo_type: number
+        category: input
+        randomize: true
+      - path: 3.inputs.steps
+        parameter_name: steps
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 3.inputs.cfg
+        parameter_name: cfg
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 3.inputs.sampler_name
+        parameter_name: sampler_name
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 3.inputs.scheduler
+        parameter_name: scheduler
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 3.inputs.denoise
+        parameter_name: denoise
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 3.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 3._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 4.inputs.ckpt_name
+        parameter_name: ckpt_name
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 4.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 4._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 5.inputs.width
+        parameter_name: width
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 5.inputs.height
+        parameter_name: height
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 5.inputs.batch_size
+        parameter_name: batch_size
+        type: integer
+        demo_type: number
+        category: input
+        randomize: false
+      - path: 5.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 5._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 6.inputs.text
+        parameter_name: text
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 6.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 6._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 7.inputs.text
+        parameter_name: text
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 7.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 7._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 8.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 8._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 9.inputs.filename_prefix
+        parameter_name: filename_prefix
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 9.class_type
+        parameter_name: class_type
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 9._meta.title
+        parameter_name: title
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
   - id: kdzsc3e28b
     name: workflow.json
     description: ''
