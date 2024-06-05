@@ -14,6 +14,14 @@ workflows:
         demo_type: text
         category: output
         randomize: true
+      - path: 4.inputs.ckpt_name
+        parameter_name: ckpt_name
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - demo_type: iamge
   - id: kdzsc3e28b
     name: workflow.json
     description: ''
