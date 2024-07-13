@@ -39,3 +39,7 @@ workflows:
         demo_type: text
         category: input
         randomize: false
+  - id: mr66hu98q4
+    name: user_models_and_nodes.json
+    description: ''
+    file: user_models_and_nodes.json
