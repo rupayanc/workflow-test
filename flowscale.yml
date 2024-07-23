@@ -20,3 +20,7 @@ workflows:
         demo_type: text
         category: input
         randomize: false
+  - id: 85q8ej3kn6o
+    name: apparel_api.json
+    description: ''
+    file: new/apparel_api.json
